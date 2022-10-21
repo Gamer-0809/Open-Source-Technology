@@ -1,0 +1,35 @@
+print("1.Addition\t 3.Division \t \t 5.Module\n2.Subtraction \t 4.Multiplication\t 6.Floor division")
+a=int(input("Enter th index no. of operation you wanna execute :"))
+
+if a==1:
+    x=float(input("Enter the 1st number :"))
+    y=float(input("Enter the 2nd number :"))
+    z=x+y
+    print("the Addition of your given value is:",z)
+elif a==2:    
+    x=float(input("Enter the 1st number :"))   
+    y=float(input("Enter the 2nd number :"))    
+    z=x-y
+    print("the Subtraction of your given value is:",z)
+elif a==3:
+    x=float(input("Enter the Dividend :"))
+    y=float(input("Enter the divisior :"))
+    z=x/y
+    print("the Division of your given value is:",z)
+elif a==4:
+    x=float(input("Enter the 1st number :"))
+    y=float(input("Enter the 2nd number :"))
+    z=x*y
+    print("the Multiplication of your given value is:",z)
+elif a==5:
+    x=float(input("Enter the Dividend :"))
+    y=float(input("Enter the divisior :"))
+    z=x%y
+    print("the remainder of your given value is:",z)
+elif a==6:
+    x=float(input("Enter the Dividend :"))
+    y=float(input("Enter the divisior :"))
+    z=x//y
+    print("the quotient of your given value is:",z)
+
+    
